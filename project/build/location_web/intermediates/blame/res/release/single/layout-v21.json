@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/location_web/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/location_web/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/location_web/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/location_web/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/layout-v21/notification_action.xml"
+    }
+]

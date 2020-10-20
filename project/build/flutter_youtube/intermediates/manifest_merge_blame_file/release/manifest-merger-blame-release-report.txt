@@ -1,0 +1,20 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="io.github.ponnamkarthik.flutteryoutube" >
+5
+6    <uses-sdk android:minSdkVersion="16" />
+6-->/home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+7
+8    <application>
+8-->/home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:6:5-11:19
+9        <activity
+9-->/home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:7:9-10:20
+10            android:name="io.github.ponnamkarthik.flutteryoutube.PlayerActivity"
+10-->/home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:8:17-47
+11            android:configChanges="orientation|screenSize|keyboardHidden|navigation" >
+11-->/home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:9:17-89
+12        </activity>
+13    </application>
+14
+15</manifest>

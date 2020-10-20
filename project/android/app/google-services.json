@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "379422519675",
+    "firebase_url": "https://netninja-91fa1.firebaseio.com",
+    "project_id": "netninja-91fa1",
+    "storage_bucket": "netninja-91fa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379422519675:android:d81e3bb7633f5fd36bcdde",
+        "android_client_info": {
+          "package_name": "com.example.netninja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379422519675-ceagvjnqc9j0t363pm9ugrbc352ug2cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvJikWBlPR1YLoEVxeyO1g60XIWqBbwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379422519675-ceagvjnqc9j0t363pm9ugrbc352ug2cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

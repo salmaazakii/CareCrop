@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_plugin_android_lifecycle/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_plugin_android_lifecycle/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_plugin_android_lifecycle/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_plugin_android_lifecycle/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/salmazaki/.gradle/caches/transforms-2/files-2.1/cb9cbeeac3f4e3559e53feca07868c5f/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    }
+]

@@ -1,0 +1,321 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.netninja"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:8:5-66
+17-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:9:5-79
+18-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:10:5-81
+19-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:10:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+20-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+21-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+23-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+28        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:12:5-35:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:13:9-57
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/49adf48c474f5d09374edfb60170bd04/core-1.2.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:15:9-43
+35        android:label="Care Crop" >
+35-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:14:9-34
+36        <activity
+36-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:16:9-27:20
+37            android:name="com.example.netninja.MainActivity"
+37-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:17:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:20:13-163
+39            android:hardwareAccelerated="true"
+39-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:21:13-47
+40            android:launchMode="singleTop"
+40-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:18:13-43
+41            android:theme="@style/LaunchTheme"
+41-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:19:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:22:13-55
+43            <intent-filter>
+43-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:23:13-26:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:24:17-68
+44-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:24:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:25:17-76
+46-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:30:9-32:33
+54            android:name="flutterEmbedding"
+54-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:31:13-44
+55            android:value="2" />
+55-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:32:13-30
+56        <meta-data
+56-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:33:9-34:70
+57            android:name="com.google.android.geo.API_KEY"
+57-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:33:20-65
+58            android:value="AIzaSyDMZNKB44H0XcB5K2EThNJkEDV-VOouj48" />
+58-->/home/salmazaki/AndroidStudioProjects/net_ninja/android/app/src/main/AndroidManifest.xml:34:13-68
+59
+60        <provider
+60-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+61            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+61-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+62            android:authorities="com.example.netninja.flutter.image_provider"
+62-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+63            android:exported="false"
+63-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+64            android:grantUriPermissions="true" >
+64-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+65            <meta-data
+65-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+67                android:resource="@xml/flutter_image_picker_file_paths" />
+67-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+68        </provider>
+69
+70        <service
+70-->[:cloud_firestore] /home/salmazaki/AndroidStudioProjects/net_ninja/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:cloud_firestore] /home/salmazaki/AndroidStudioProjects/net_ninja/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a9a76a0e9b284a6a416e0a3878e671f3/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+74            <meta-data
+74-->[:cloud_firestore] /home/salmazaki/AndroidStudioProjects/net_ninja/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+75-->[:cloud_firestore] /home/salmazaki/AndroidStudioProjects/net_ninja/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:cloud_firestore] /home/salmazaki/AndroidStudioProjects/net_ninja/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+77            <meta-data
+77-->[:firebase_auth] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+78-->[:firebase_auth] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_core] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+81-->[:firebase_core] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_core] /home/salmazaki/AndroidStudioProjects/net_ninja/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+83            <meta-data
+83-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a9a76a0e9b284a6a416e0a3878e671f3/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a9a76a0e9b284a6a416e0a3878e671f3/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a9a76a0e9b284a6a416e0a3878e671f3/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-firestore:21.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/4679cd58d5e6381a9b4963b964e7329d/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+87                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+87-->[com.google.firebase:firebase-firestore:21.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/4679cd58d5e6381a9b4963b964e7329d/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-firestore:21.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/4679cd58d5e6381a9b4963b964e7329d/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+93-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+95        </service>
+96
+97        <activity
+97-->[:url_launcher] /home/salmazaki/AndroidStudioProjects/net_ninja/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher] /home/salmazaki/AndroidStudioProjects/net_ninja/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+99            android:exported="false"
+99-->[:url_launcher] /home/salmazaki/AndroidStudioProjects/net_ninja/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher] /home/salmazaki/AndroidStudioProjects/net_ninja/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+101        <activity
+101-->[:flutter_youtube] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_youtube/intermediates/library_manifest/release/AndroidManifest.xml:9:9-12:20
+102            android:name="io.github.ponnamkarthik.flutteryoutube.PlayerActivity"
+102-->[:flutter_youtube] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_youtube/intermediates/library_manifest/release/AndroidManifest.xml:10:13-81
+103            android:configChanges="orientation|screenSize|keyboardHidden|navigation" >
+103-->[:flutter_youtube] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_youtube/intermediates/library_manifest/release/AndroidManifest.xml:11:13-85
+104        </activity>
+105
+106        <provider
+106-->[:flutter_webview_plugin] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_webview_plugin/intermediates/library_manifest/release/AndroidManifest.xml:9:9-18:20
+107            android:name="androidx.core.content.FileProvider"
+107-->[:flutter_webview_plugin] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_webview_plugin/intermediates/library_manifest/release/AndroidManifest.xml:10:13-62
+108            android:authorities="com.example.netninja.fileprovider"
+108-->[:flutter_webview_plugin] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_webview_plugin/intermediates/library_manifest/release/AndroidManifest.xml:11:13-64
+109            android:exported="false"
+109-->[:flutter_webview_plugin] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_webview_plugin/intermediates/library_manifest/release/AndroidManifest.xml:12:13-37
+110            android:grantUriPermissions="true" >
+110-->[:flutter_webview_plugin] /home/salmazaki/AndroidStudioProjects/net_ninja/build/flutter_webview_plugin/intermediates/library_manifest/release/AndroidManifest.xml:13:13-47
+111            <meta-data
+111-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+113                android:resource="@xml/filepaths" />
+113-->[:image_picker] /home/salmazaki/AndroidStudioProjects/net_ninja/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+114        </provider>
+115
+116        <receiver
+116-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+117            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+117-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+119            android:exported="false" >
+119-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+120        </receiver>
+121        <receiver
+121-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+122            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+122-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+124            android:exported="true"
+124-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+125            android:permission="android.permission.INSTALL_PACKAGES" >
+125-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+126            <intent-filter>
+126-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+127                <action android:name="com.android.vending.INSTALL_REFERRER" />
+127-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+127-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+132            android:name="com.google.android.gms.measurement.AppMeasurementService"
+132-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+134            android:exported="false" />
+134-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+135        <service
+135-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+136            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+136-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+139            android:permission="android.permission.BIND_JOB_SERVICE" />
+139-->[com.google.android.gms:play-services-measurement:17.2.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/2520cf05d120a0f27002139ce3259b69/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+140
+141        <activity
+141-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+142            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+142-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+143            android:excludeFromRecents="true"
+143-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+144            android:exported="true"
+144-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+145            android:launchMode="singleTask"
+145-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+146            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+146-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+147-->[com.google.firebase:firebase-auth:19.2.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9fdc813468e3bec61d80e3ed60b50ba6/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+148        <uses-library
+148-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+149            android:name="org.apache.http.legacy"
+149-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+150            android:required="false" />
+150-->[com.google.android.gms:play-services-maps:17.0.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/6e3195b6699037ace0db85e7000fa1aa/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+151
+152        <receiver
+152-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+153            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+153-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+154            android:exported="true"
+154-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+155            android:permission="com.google.android.c2dm.permission.SEND" >
+155-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+156            <intent-filter>
+156-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+157                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+157-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+157-->[com.google.firebase:firebase-iid:20.0.2] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/9c9928bdd3bf39ab4247e6da388a5005/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+158            </intent-filter>
+159        </receiver>
+160
+161        <activity
+161-->[com.google.android.gms:play-services-base:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/b08aa49f692165e79a4d22d6dc614566/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+162            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+162-->[com.google.android.gms:play-services-base:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/b08aa49f692165e79a4d22d6dc614566/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-base:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/b08aa49f692165e79a4d22d6dc614566/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-base:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/b08aa49f692165e79a4d22d6dc614566/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+165
+166        <provider
+166-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+167            android:name="com.google.firebase.provider.FirebaseInitProvider"
+167-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+168            android:authorities="com.example.netninja.firebaseinitprovider"
+168-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:19.3.0] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/75388b4428380c4cbaad53b5465ec53d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+171
+172        <meta-data
+172-->[com.google.android.gms:play-services-basement:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a6202976dcfc1dcb533ad2463484e380/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+173            android:name="com.google.android.gms.version"
+173-->[com.google.android.gms:play-services-basement:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a6202976dcfc1dcb533ad2463484e380/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+174            android:value="@integer/google_play_services_version" />
+174-->[com.google.android.gms:play-services-basement:17.2.1] /home/salmazaki/.gradle/caches/transforms-2/files-2.1/a6202976dcfc1dcb533ad2463484e380/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+175    </application>
+176
+177</manifest>

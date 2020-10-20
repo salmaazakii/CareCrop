@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.github.ponnamkarthik.flutteryoutube" >
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application>
+        <activity
+            android:name="io.github.ponnamkarthik.flutteryoutube.PlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|navigation" >
+        </activity>
+    </application>
+
+</manifest>

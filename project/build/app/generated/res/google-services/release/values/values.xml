@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">379422519675-ceagvjnqc9j0t363pm9ugrbc352ug2cr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://netninja-91fa1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">379422519675</string>
+    <string name="google_api_key" translatable="false">AIzaSyBEvJikWBlPR1YLoEVxeyO1g60XIWqBbwg</string>
+    <string name="google_app_id" translatable="false">1:379422519675:android:d81e3bb7633f5fd36bcdde</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBEvJikWBlPR1YLoEVxeyO1g60XIWqBbwg</string>
+    <string name="google_storage_bucket" translatable="false">netninja-91fa1.appspot.com</string>
+    <string name="project_id" translatable="false">netninja-91fa1</string>
+</resources>

@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color blue
+color cloud_white
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color orange_light
+color peter_river
+color red_light
+id root_view
+id youtube_view
+layout activity_player
+string player_error
+string seek_to
+string seek_to_hint
+style AppTheme
+style AppTheme.AppBarOverlay
+style AppTheme.NoActionBar
+style AppTheme.PopupOverlay

@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:4:5-53
+		INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:3:1-47
+	xmlns:android
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:6:5-11:19
+activity#io.github.ponnamkarthik.flutteryoutube.PlayerActivity
+ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:7:9-10:20
+	android:configChanges
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:9:17-89
+	android:name
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml:8:17-47
+uses-sdk
+INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/salmazaki/gradProj/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_youtube-2.0.0/android/src/main/AndroidManifest.xml
