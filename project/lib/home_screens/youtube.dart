@@ -86,7 +86,7 @@ class _YoutubeState extends State<Youtube> {
       ),
       onTap: () {
         FlutterYoutube.playYoutubeVideoByUrl(
-          apiKey: "AIzaSyD807BrBYfzVKSJqJlX2KBs02UkjXzLMIY",
+          apiKey: "**********",
           videoUrl: vid,
           autoPlay: true,
         );
